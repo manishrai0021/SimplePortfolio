@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="home.css">
+        <style>
+            body
+            {
+                padding: 0%;
+                margin: 0%;
+            }
+            h1
+            {
+                font-size: 80px;
+                position: absolute;
+                top: 10%;
+                left: 20%;
+            }
+            h1:hover
+            {
+                transition: linear 3s;
+                color: aqua;
+            }
+            #line
+            {
+                width: 100%;
+                height: 40px;
+                background-color: aqua;
+                position: absolute;
+                top: 62%;
+                left: 0%;
+            }
+            #h1
+            {
+                position: absolute;
+                top: -40%;
+                left: 20px;
+            }
+            #h2
+            {
+                position: absolute;
+                top: -40%;
+                left: 70%;
+            }
+            #gallery
+            {
+                
+                width: 100%;
+                height: 600px;
+                position: absolute;
+                top: 70%;
+            }
+            #bt1
+            {
+                width: 300px;
+                height: 150px;
+                background-image: url("workp.png");
+                background-size:contain;
+                position: absolute;
+                top: 50px;
+                left: 5%;
+            }
+            #bt1:hover
+            {
+                transform: scale(1.4);
+                cursor: pointer;
+            }
+            #bt2
+            {
+                width: 260px;
+                height: 150px;
+                background-image: url("Work1.png");
+                background-size:contain;
+                position: absolute;
+                top:50px ;
+                left: 42%;
+            }
+            #bt2:hover
+            {
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+            #bt3
+            {
+                width: 300px;
+                height: 150px;
+                background-image: url("workC.png");
+                background-size:contain;
+                position: absolute;
+                top:50px ;
+                left: 75%;
+            }
+            #bt3:hover
+            {
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+            #bt4
+            {
+                width: 280px;
+                height: 150px;
+                background-image: url("workA.png");
+                background-size:contain;
+                position: absolute;
+                top:300px ;
+                left: 22%;
+            }
+            #bt4:hover
+            {
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+            #bt5
+            {
+                width: 300px;
+                height: 150px;
+                background-image: url("workL.png");
+                background-size:contain;
+                position: absolute;
+                top:300px ;
+                left: 58%;
+            }
+            #bt5:hover
+            {
+                transform: scale(1.5);
+                cursor: pointer;
+            }
+            #por
+            {
+                position: absolute;
+                top: 0%;
+                left: 5%;
+            }
+            #blo
+            {
+                position: absolute;
+                top: 0%;
+                left: 42%;
+            }
+            #con
+            {
+                position: absolute;
+                top: 0%;
+                left: 75%;
+            }
+            #abo
+            {
+                position: absolute;
+                top: 40%;
+                left: 22%;
+            }
+            #log
+            {
+                position: absolute;
+                top: 40%;
+                left: 58%;
+            }
+        </style>
+    </head>
+    <body>
+            <h1>Welcome to my Website</h1>
+            <div id="line">
+                <h2 id="h1">Here are the pages of my Website</h2>
+                <h2 id="h2">You can click on it and go to the pages</h2>
+            </div>
+        <div id="gallery">
+            <form action="Portfolio.html">
+                <h3 id="por">Portfolio</h3>
+                <input id="bt1" type="submit" value="">
+            </form>
+            <form action="Blog.html">
+                <h3 id="blo">Blog</h3>
+                <input id="bt2" type="submit" value="">
+            </form>
+            <form action="Contact.html">
+                <h3 id="con">Contact</h3>
+                <input id="bt3" type="submit" value="">
+            </form>
+            <form action="About.html">
+                <h3 id="abo">About</h3>
+                <input id="bt4" type="submit" value="">
+            </form>
+            <form action="Login.html">
+                <h3 id="log">LogIn</h3>
+                <input id="bt5" type="submit" value="">
+            </form>
+        </div>
+        <ul>
+            <li><a class="active" href="http://127.0.0.1:5500/home.html"><b>Home</b></a></li>
+            <li><a href="Portfolio.html"><b>Portfolio</b></a></li>
+            <li><a href="Blog.html"><b>Blog</b></a></li>
+            <li><a href="Contact.html"><b>Contact</b></a></li>
+            <li><a href="About.html"><b>About</b></a></li>
+            <li><a href="Login.html"><b>Login</b></a></li>
+        </ul>
+    </body>
+</html>

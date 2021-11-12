@@ -1,0 +1,40 @@
+*
+{
+    font-family: sans-serif;
+}
+body
+{
+    padding: 0%;
+    margin: 0%;
+    min-height: 100vh;
+    background-color: white;
+    color: black;
+}
+ul
+{
+    min-height: 50px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+ul li
+{
+    display: block;
+    list-style: none;
+    float: left;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+ul li a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(49, 42, 42);
+}
+ul li a:hover,a.active
+{
+    background-color: aqua;
+    cursor: pointer;
+}
